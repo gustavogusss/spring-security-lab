@@ -1,3 +1,13 @@
+## 🧱 Project Structure
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-17+-red?logo=openjdk&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot&logoColor=white&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Spring%20Security-Learning-blue?logo=springsecurity&logoColor=white&style=for-the-badge" />
+</p>
+
+
+
 # Spring Security Lab
 
 A clean, structured and evolving repository focused on practicing and understanding **Spring Security** fundamentals and advanced concepts.
