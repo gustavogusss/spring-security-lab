@@ -42,19 +42,19 @@ This section will document the evolution of the project step by step.
 - Basic Spring Security dependency  
 
 ### **Stage 2 — First Security Configurations**
-- (to be added by you)
+- 
 
 ### **Stage 3 — Custom Authentication / Filters**
-- (to be added by you)
+- 
 
 ### **Stage 4 — Stateless Security / JWT**
-- (to be added by you)
+- 
 
 ### **Stage 5 — OAuth2 / External IdPs**
-- (to be added by you)
+- 
 
 ### **Stage 6 — Advanced Topics**
-- (to be added by you)
+- 
 
 ---
 
