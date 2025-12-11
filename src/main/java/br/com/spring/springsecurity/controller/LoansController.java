@@ -8,6 +8,6 @@ public class LoansController {
 
     @GetMapping("/myLoans")
     public String getLoans() {
-        return "Congratulations! You've reached Loans Details!";
+        return "<h1>Congratulations! You've reached Loans Details!</h1>";
     }
 }

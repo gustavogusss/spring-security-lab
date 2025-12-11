@@ -8,6 +8,6 @@ public class NoticeController {
 
     @GetMapping("/notices")
     public String getNotices() {
-        return "Congratulations! You've reached Notices Details!";
+        return "<h1>Congratulations! You've reached Notices Details!</h1>";
     }
 }

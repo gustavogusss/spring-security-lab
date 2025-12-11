@@ -8,7 +8,7 @@ public class AccountController {
 
     @GetMapping("/myAccount")
     public String getAccountDetails() {
-        return "Congratulations! You've reached Account Details!";
+        return "<h1>Congratulations! You've reached Account Details!</h1>";
     }
 
 }

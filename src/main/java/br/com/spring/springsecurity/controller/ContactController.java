@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ContactController {
 
-    @GetMapping("/Contact")
+    @GetMapping("/contact")
     public String saveContactInquiryDetails() {
-        return "Congratulations! You've reached Contact Details!";
+        return "<h1>Congratulations! You've reached Contact Details!</h1>";
     }
 }

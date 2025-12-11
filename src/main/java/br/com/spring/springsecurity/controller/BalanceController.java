@@ -8,7 +8,7 @@ public class BalanceController {
 
     @GetMapping("/myBalance")
     public String getBalanceDetails() {
-        return "Congratulations! You've reached Balance Details!";
+        return "<h1>Congratulations! You've reached Balance Details!</h1>";
     }
 
 }

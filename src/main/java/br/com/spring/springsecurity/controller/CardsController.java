@@ -8,7 +8,7 @@ public class CardsController {
 
     @GetMapping("/myCards")
     public String getCardDetails() {
-        return "Congratulations! You've reached Card Details!";
+        return "<h1>Congratulations! You've reached Card Details!</h1>";
     }
 
 }
