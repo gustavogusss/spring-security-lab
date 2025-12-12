@@ -42,7 +42,7 @@ This section will document the evolution of the project step by step.
 - Basic Spring Security dependency  
 
 ### **Stage 2 — First Security Configurations**
-- 
+- Initial security setup implemented in the feature/adding_security branch. 
 
 ### **Stage 3 — Custom Authentication / Filters**
 - 
