@@ -1,10 +1,10 @@
 spring:
   application:
     name: ${SPRING_APP_NAME:springsecurity}
-  security:
-    user:
-      name: ${SECURITY_USERNAME:admin}
-      password: ${SECURITY_PASSWORD:admin}
+#  security:
+#    user:
+#      name: ${SECURITY_USERNAME:admin}
+#      password: ${SECURITY_PASSWORD:admin}
 
 logging:
   pattern:
