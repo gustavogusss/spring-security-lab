@@ -43,7 +43,7 @@ This section will document the evolution of the project step by step.
 
 ### **Stage 2 — First Security Configurations**
 - Initial security setup implemented in the feature/adding_security branch. 
-
+- Users -> passwors: user -> user; admin -> admin 
 ### **Stage 3 — Custom Authentication / Filters**
 - PostgreSQL running in Docker via `docker compose up`
 - Database schema managed with Flyway migrations
