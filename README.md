@@ -45,7 +45,11 @@ This section will document the evolution of the project step by step.
 - Initial security setup implemented in the feature/adding_security branch. 
 
 ### **Stage 3 — Custom Authentication / Filters**
-- 
+- PostgreSQL running in Docker via `docker compose up`
+- Database schema managed with Flyway migrations
+- JDBC-based authentication using Spring Security
+- Users and authorities seeded via Flyway for testing purposes
+- Environment-variable–driven datasource configuration
 
 ### **Stage 4 — Stateless Security / JWT**
 - 
