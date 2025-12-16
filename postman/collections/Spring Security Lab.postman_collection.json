@@ -1,0 +1,158 @@
+{
+  "info": {
+    "_postman_id": "ac53e695-0d5b-4652-ae9a-4d1e33bdfb9f",
+    "name": "Spring Security Lab",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "/myAccount",
+      "id": "e74779f3-a451-43f8-b461-cc28bc8fc60d",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/myAccount",
+          "path": [
+            "myAccount"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/myLoans",
+      "id": "4b1895e1-7a1e-4369-807e-875fb100d645",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/myLoans",
+          "path": [
+            "myLoans"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/myBalance",
+      "id": "c5f76d80-06dc-4a1d-8942-09e4ffe9eedd",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/myBalance",
+          "path": [
+            "myBalance"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/myCards",
+      "id": "f15410e7-1e77-41d0-9add-ea1b73324bd4",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/myCards",
+          "path": [
+            "myCards"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/notices",
+      "id": "021208c5-f50d-442d-8fdc-e3421cef0aef",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/notices",
+          "path": [
+            "notices"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/contact",
+      "id": "d66dbebd-b990-44f6-a26b-b024641b2b24",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "/contact",
+          "path": [
+            "contact"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "/register",
+      "id": "7adf8c92-ba8c-4718-a970-4f6d86b2852c",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"vanessa@example.com\",\n  \"password\": \"vanessa\",\n  \"role\": \"user\"\n}\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "/register",
+          "path": [
+            "register"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "8c8776a1-6a0a-4a9b-a1de-fb8d53d68d0e",
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          "pm.request.url.protocol=\"http\";",
+          "pm.request.url.host=\"localhost\";",
+          "pm.request.url.port=\"8080\";"
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "cd05a313-9f33-4480-b3c6-3f9d16b4ce1b",
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "id": "fdc8e3e0-9151-4d50-8410-ff7691e616ac",
+      "key": "base_url",
+      "value": ""
+    }
+  ]
+}

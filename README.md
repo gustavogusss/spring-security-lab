@@ -50,7 +50,11 @@ This section will document the evolution of the project step by step.
 - JDBC-based authentication using Spring Security
 - Users and authorities seeded via Flyway for testing purposes
 - Environment-variable–driven datasource configuration
-- This all is available at feature/addin_database branch
+- This all is available at feature/addin_database branch: 
+  - users, pass: user, user; admin, admin
+- Custom implementation of UserDetailsService is at branch feature/custom_DB_table
+  - users, pass: user@example.com, user; admin@example.com, admin;
+
 ### **Stage 4 — Stateless Security / JWT**
 - 
 
