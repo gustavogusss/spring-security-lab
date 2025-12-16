@@ -50,7 +50,7 @@ This section will document the evolution of the project step by step.
 - JDBC-based authentication using Spring Security
 - Users and authorities seeded via Flyway for testing purposes
 - Environment-variable–driven datasource configuration
-
+- This all is available at feature/addin_database branch
 ### **Stage 4 — Stateless Security / JWT**
 - 
 
